@@ -21,14 +21,6 @@ const routes = [
   }
 ]
 
-new Vue({
-  el: 'samplebutton',
-  methods: {
-    say: function (message) {
-      alert(message)
-    }
-  }
-})
 
 const router = new VueRouter({
   mode: 'history',
